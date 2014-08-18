@@ -32,6 +32,10 @@ angular
         templateUrl: 'views/maps.html',
         controller: 'MapsCtrl'
       })
+      .when('/mapeditor',{
+        templateUrl: 'views/mapeditor.html',
+        controller: 'MapEditorCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
